@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemarkTest.Web", "src\CinemarkTest.Web\CinemarkTest.Web.csproj", "{832D6315-673E-4096-832F-6B9EB57E28D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemarkTest.Infra", "src\CinemarkTest.Infra\CinemarkTest.Infra.csproj", "{6C5BDF07-B4C3-4AB1-8070-19D87E398AED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemarkTest.Domain", "src\CinemarkTest.Domain\CinemarkTest.Domain.csproj", "{E04B6188-D5C3-43ED-81F1-F8837B8FE44D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemarkTest.Application", "src\CinemarkTest.Application\CinemarkTest.Application.csproj", "{949B9BAC-9D77-477C-8DC8-CD9F1432B191}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{209CD5D8-B59E-42B5-BEB3-CCF1C45B331C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9CF08771-E55C-4D32-B9E1-376944EC7F6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemarkTests.UnitTests", "tests\CinemarkTests.UnitTests\CinemarkTests.UnitTests.csproj", "{F463A96C-96BB-4C90-91BD-B774DBCA9E01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{832D6315-673E-4096-832F-6B9EB57E28D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832D6315-673E-4096-832F-6B9EB57E28D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832D6315-673E-4096-832F-6B9EB57E28D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832D6315-673E-4096-832F-6B9EB57E28D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C5BDF07-B4C3-4AB1-8070-19D87E398AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C5BDF07-B4C3-4AB1-8070-19D87E398AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C5BDF07-B4C3-4AB1-8070-19D87E398AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C5BDF07-B4C3-4AB1-8070-19D87E398AED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E04B6188-D5C3-43ED-81F1-F8837B8FE44D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E04B6188-D5C3-43ED-81F1-F8837B8FE44D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E04B6188-D5C3-43ED-81F1-F8837B8FE44D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E04B6188-D5C3-43ED-81F1-F8837B8FE44D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{949B9BAC-9D77-477C-8DC8-CD9F1432B191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949B9BAC-9D77-477C-8DC8-CD9F1432B191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949B9BAC-9D77-477C-8DC8-CD9F1432B191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949B9BAC-9D77-477C-8DC8-CD9F1432B191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F463A96C-96BB-4C90-91BD-B774DBCA9E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F463A96C-96BB-4C90-91BD-B774DBCA9E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F463A96C-96BB-4C90-91BD-B774DBCA9E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F463A96C-96BB-4C90-91BD-B774DBCA9E01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{949B9BAC-9D77-477C-8DC8-CD9F1432B191} = {209CD5D8-B59E-42B5-BEB3-CCF1C45B331C}
+		{E04B6188-D5C3-43ED-81F1-F8837B8FE44D} = {209CD5D8-B59E-42B5-BEB3-CCF1C45B331C}
+		{6C5BDF07-B4C3-4AB1-8070-19D87E398AED} = {209CD5D8-B59E-42B5-BEB3-CCF1C45B331C}
+		{832D6315-673E-4096-832F-6B9EB57E28D8} = {209CD5D8-B59E-42B5-BEB3-CCF1C45B331C}
+		{F463A96C-96BB-4C90-91BD-B774DBCA9E01} = {9CF08771-E55C-4D32-B9E1-376944EC7F6C}
+	EndGlobalSection
+EndGlobal
