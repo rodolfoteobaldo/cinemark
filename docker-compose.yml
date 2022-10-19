@@ -1,0 +1,36 @@
+version: '2'
+services:
+  mongodb:
+    image: mongo:4.0.16
+    container_name: mongodb
+    environment:
+      -  'MONGODB_USER=mongodb'
+      -  'MONGODB_PASS=mongodb'
+    volumes:
+      - 'mongodb:/data/db'
+    ports:
+      - '27017:27017'
+    command: mongod
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+  rabbitmq:
+    image: 'rabbitmq:3-management'
+    container_name: rabbitmq
+    hostname: 'rabbitmq'
+    environment:
+      RABBITMQ_ERLANG_COOKIE: 'SWQOKODSQALRPCLNMEQG'
+      RABBITMQ_DEFAULT_USER: 'rabbitmq'
+      RABBITMQ_DEFAULT_PASS: 'rabbitmq'
+      RABBITMQ_DEFAULT_VHOST: '/'
+    ports:
+      - '15672:15672'
+      - '5672:5672'
+    labels:
+      NAME: 'rabbitmq'
+volumes:
+  mongodb: {}
+networks: 
+  net:
+    driver: bridge
